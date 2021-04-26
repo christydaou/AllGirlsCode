@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Contact Us Form</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.slim.min.js" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/js/bootstrap.min.js" integrity="sha384-ux8v3A6CPtOTqOzMKiuo3d/DomGaaClxFYdCu2HPMBEkf6x2xiDyJ7gkXU0MWwaD" crossorigin="anonymous"></script>
+        <script src="https://sdk.form.run/js/v2/formrun.js"></script>
+    </head>
+    <body>
+        <script type="text/javascript">var submitted=false;</script>
+        <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"      
+    onload="if(submitted) {window.location='index.html';}"></iframe>
+<div class="container">
+<div id="envelope">
+  <div></div>
+  <div>
+    <p style="font-size: 24px; margin-bottom: 7%; margin-top: 9%; font-weight: bold;">Contact us!</p>
+    <form  action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdNFE9yplyIkPpU29psr747niyzW2xWsIsWUERm2NPsQf6TdA/formResponse" method="post" id="mG61Hd"  target="hidden_iframe" onsubmit="submitted=redirect()" class="form" name="myForm">
+      <p type="Full Name:"><input type="text" placeholder="Name: Jane Doe" name="entry.1812835721" id="name" required></p>
+        
+      <p type="Email:"><input type="text" placeholder="Email: lorem@ipsum.com" name="entry.671156064" id="email" required></p>
+        
+        <p type="Message"><textarea required placeholder="Message: " rows="3" name="entry.2571952" id="message"></textarea></p>
+  
+        
+        <button id="send" type="submit">Send Message</button>
+        <br>
+        
+        <p style="align-content: center; font-size: 14px; padding-bottom: 2%"><i class="fas fa-envelope fa-2x" style="color: #1648a7"></i> contact@allgirlscode.me</p>
+        
+    </form>
+      
+   </div>
+  <div>
+    <i class="line"></i>
+    <i class="line"></i>
+    <i class="line"></i>
+    <i class="line"></i>
+    <i class="line"></i>
+    <i class="line"></i>
+    <i class="line"></i>
+    <i class="line"></i>
+    <i class="line"></i>
+    
+  </div>
+  <div>
+    <i class="line"></i>
+    <i class="line"></i>
+    <i class="line"></i>
+    <i class="line"></i>
+    <i class="line"></i>
+  </div>
+   <div>
+    <i class="line"></i>
+    <i class="line"></i>
+    <i class="line"></i>
+    <i class="line"></i>
+    <i class="line"></i>
+  </div>
+</div>
+</div>
+
+<script type="text/javascript">
+    function redirect() {
+      window.location.replace("https://www.allgirlscode.me/contact-us");
+      return true;
+    }
+    
+    function thankYouMsg(){
+        
+        if((document.forms["myForm"]["entry.00000000"].value != "") && (document.forms["myForm"]["entry.00000000"].value != "") && (document.forms["myForm"]["entry.00000000"].value != ""))
+            alert("Thank you for submitting your message! We'll get back to you as soon as possible.");
+        else
+            alert("Message not sent! some fields are missing...");
+    }
+</script>
+        
+        </body>
+    </html>

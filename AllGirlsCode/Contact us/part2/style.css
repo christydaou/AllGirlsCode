@@ -1,0 +1,234 @@
+.col{
+    margin: 0;
+    padding: 0;
+}
+.grid-layout{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+}
+
+.grid-layout-1{
+    display: grid;
+    grid-template-columns: 1.5fr 0.5fr;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.interest-box-1{
+    background-color: #fafafb;
+    box-shadow: 1px 4px 8px rgba(0,0,0,.15);
+    color: #1648a7;
+    transition: all .3s ease-in-out;
+    padding: 10px;
+    padding-bottom: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10%;
+}
+
+.interest-box-3{
+    background-color: #fafafb;
+    box-shadow: 1px 4px 8px rgba(0,0,0,.15);
+    color: #1648a7;
+    transition: all .3s ease-in-out;
+    padding: 10px;
+    padding-bottom: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 7%;
+}
+
+
+.interest-box-2{
+    background-color: #fafafb;
+    box-shadow: 1px 4px 8px rgba(0,0,0,.15);
+    border: 3px solid #ce2456;
+    color: #1648a7;
+    transition: all .3s ease-in-out;
+    padding: 10px;
+    padding-bottom: 0;
+    margin-top: 8%;
+    margin-bottom: 0%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.row1{
+    margin-bottom: 5%;
+
+}
+
+.box-x{
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+
+.box{
+    margin-right: 8%;
+    margin-left: 0%;
+    margin-top: 6.5%;
+    color: #1648a7;
+}
+
+.box-1{
+    margin-right: 0%;
+    margin-left: 2%;
+    margin-top: 2.5%;
+    color: #1648a7;
+}
+
+.box:nth-child(1){
+    text-align: left;
+}
+
+.box:nth-child(2){
+    text-align: end;
+}
+
+.title-style{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 3%;
+}
+
+.img-box img{
+    margin-top: 33%;
+    border-radius: 40%;
+    width: 100px;
+}
+.img-box{
+    border: 2px solid #1648a7;
+    border-radius: 50%;
+    align-content: center;
+    text-align: center;
+    height: 100px;
+    width: 110px;
+    margin-left: 20%;
+    margin-bottom: 10%;
+    margin-top: 10%;
+}
+
+.img-box-1{
+    align-content: center;
+    text-align: center;
+    margin-left: 10%;
+    margin-bottom: 15%;
+    margin-top: 20%;
+}
+
+.more-section{
+	text-transform: capitalize;
+	font-size: 11px;
+	color: #1648a7;
+	display: inline-block;
+    font-weight:500;
+}
+
+.interest-box-1:hover .more-section{
+	border-bottom: 1px solid;
+	text-decoration: none;
+    
+}
+
+.more-section:hover{
+    font-weight: bolder;
+}
+
+
+.title-heading{
+    border: 1px solid #ce2456;
+    padding: 2%;
+    align-content: center;
+    text-align: center; 
+    margin-bottom: 5%;
+    margin-top: 2%;
+    margin-right: 5%;
+    margin-left: 5%;
+    text-transform: uppercase;
+    background: #ce2456;
+    color: white;
+    font-size: 20px;
+}
+
+ .a-link {
+  height: 80px; 
+  background-color: white;
+  text-align: center;
+  line-height: 80px;
+  font-size: 30px;
+  margin: 0 10px;
+  display: block;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid #ce2456;
+  z-index: 1;
+}
+
+ .a-link .icon {
+  position: relative;
+     margin-top: 30%;
+  color: #ce2456;
+  transition: .5s;
+  z-index: 3;
+}
+
+ .a-link:hover .icon {
+  color: #fff;
+  transform: rotateY(360deg);
+}
+
+ .a-link:before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 150%;
+  height: 100%;
+  background: #f00;
+  transition: .5s;
+  z-index: 2;
+}
+
+ .a-link:hover:before {
+  top: 0;
+}
+
+.row1 .col1:nth-child(1) a:before{
+  background: #3b5999;
+}
+
+.row1 .col1:nth-child(3) a:before{
+  background: #55acee;
+}
+
+.row1 .col1:nth-child(4) a:before {
+  background: #0077b5;
+}
+
+.row1 .col1:nth-child(2) a:before {
+  background: 	#d22a88;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #fafafb;
+    box-shadow: 1px 4px 8px rgba(0,0,0,.15);
+    border: 3px solid #1648a7;
+    color: #1648a7;
+    transition: all .3s ease-in-out;
+    padding: 10px;
+    padding-bottom: 0;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.content-box .finbyz-icon {
+    height: 100px;
+    width: 100px;
+    display: inline;
+}
